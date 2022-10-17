@@ -6,7 +6,7 @@ namespace ChristmasWithTypes
     {
         static void Main(string[] args)
         {
-            var xmas = new Christmas(8);
+            var xmas = new Christmas();
 
             var xmasDay = Christmas.Day.Thursday;
 
@@ -14,7 +14,7 @@ namespace ChristmasWithTypes
             xmas.Santa = "Kris Kringle";
 
             //DONE Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents =  new string[3]{"car","house","new job"};
+            xmas.Presents =  new string[3]{"car","house","New job"};
 
             //DONE Set the TreeHeight to 10
             xmas.TreeHeight = 10;
